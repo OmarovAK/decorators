@@ -25,16 +25,7 @@ def my_function(file_path):
             count = 0
             for i in f.readlines():
                 count = count + int(i)
-            print(count)
-
-
-
-
-
-
-
-
-
+            print(f'Суммарно общее число - {count}')
 
 
 my_function(file)
